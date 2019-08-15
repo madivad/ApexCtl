@@ -16,6 +16,7 @@ config_files = \
 	config/Xmodmap
 binary = dist/build/apexctl/apexctl
 binary_install_dir = /usr/local/bin
+binary_install_dir_for_root = /usr/local/sbin
 
 # build defs
 $(binary): $(hs_files)
